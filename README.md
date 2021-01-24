@@ -29,7 +29,6 @@
   ```c
   ULONG IntGateLo = (((ULONG)pFunc & 0x0000FFFF) | 0x00080000);
   ULONG IntGateHi = (((ULONG)pFunc & 0xFFFF0000) | 0x0000EE00);
-  
   *((PULONG)0x8003f500) = IntGateLo;
   *((PULONG)0x8003f504) = IntGateHi;
   ```
