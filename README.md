@@ -33,7 +33,7 @@
   *((PULONG)0x8003f504) = IntGateHi;
   ```
 
-  这里把中断处理函数设置为 `User32ApiSpyNaked` 。其获取三环EIP和ESP并调用一个内平栈的函数 `User32ApiSpy` 来从堆栈中读取出
+  这里把中断处理函数设置为 `User32ApiSpyNaked` 。其获取 **三环EIP和ESP** 并调用一个内平栈的函数 `User32ApiSpy` 来 **根据三环ESP** 从三环堆栈中读取出压入栈中的参数。
 
 
 
