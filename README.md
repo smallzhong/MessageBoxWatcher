@@ -35,7 +35,7 @@
 
   这里把中断处理函数设置为 `User32ApiSpyNaked` 。其获取 **三环EIP和ESP** 并调用一个内平栈的函数 `User32ApiSpy` 来 **根据三环ESP** 从三环堆栈中读取出压入栈中的参数。
 
-
++ 通过 `OPER_GET_CALL_RECORD` 可以获取调用记录返回三环
 
 ## TODO
 
