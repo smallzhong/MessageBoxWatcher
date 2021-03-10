@@ -1,4 +1,12 @@
 # XP系统下过写拷贝全局Messagebox监视器
+
+## 代码下载
+
+- 考虑到国内git clone非常缓慢，我将代码传了一份在百度网盘上，如果通过github无法成功下载代码可以使用百度网盘下载，压缩包一共9kb大小。
+
+  链接：https://pan.baidu.com/s/1Gafe_x06A98zqoXftXVoYw 
+  提取码：1111 
+
 ## 三环
 
 1. 加载驱动
